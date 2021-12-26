@@ -1,0 +1,114 @@
+html{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header img{
+    width: 15%;
+    height: auto;
+    border-radius: 100%;
+}
+#header{
+    background: linear-gradient(10deg, #1d3557,#40916c );
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    color: #d8f3dc;
+}
+a{  
+    color: #d8f3dc;
+    text-decoration: none;
+    text-align: center;
+
+    
+}
+nav a:hover{
+    background-color: #081c15;
+    border: 1px solid #081c15;
+    border-radius: 50px;
+    text-align: center;
+    color: #d8f3dc;
+    padding: 10px;
+}
+
+#abs-center{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    min-height: 70vh;
+    background-image: url(img/wallhaven-486z61.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+  }
+  #contenedorcamion{
+      width: 20%;
+  }
+  #cronometro{
+      width: 19%;
+      
+  }
+  #asistencia{
+      width: 18%;
+  }
+  #segundocontenedor{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  article{
+    padding-bottom: 100px;
+  }
+  .logo-costo{
+      width: 100px;
+  }
+  #costo{
+      width: 70%;
+    
+  }
+  #costo div div{
+      margin-bottom: 50px;
+      padding: 30px;
+      border: 0px solid #081c15;
+      border-radius: 60px;
+      background: linear-gradient(145deg, #f0f0f0, #cacaca);
+      box-shadow:  8px 8px 16px #c3c3c3,
+                   -8px -8px 16px #fdfdfd;
+  }
+  #costo div div:hover{
+      background-color: #d8f3dc;
+      border-radius: 60px;
+      background: linear-gradient(145deg, #d8f3dc, #1d3557);
+      box-shadow:  8px 8px 16px #c3c3c3,
+                   -8px -8px 16px #fdfdfd;
+
+  } 
+  #costo p img{
+      width: 15%;
+
+  }
+.btn{
+    background-color: #2D6A4F;
+    border-color: #2D6A4F;
+}
+.btn:hover{
+    background-color: #081C15;
+}
+footer{
+    background: linear-gradient(10deg, #1d3557,#40916c );
+    height: 100px;
+}
+footer div p{
+    color: #1d3557;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
